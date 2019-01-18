@@ -5,10 +5,20 @@ import cv2
 import smtplib
 
 config = imgkit.config(wkhtmltoimage=r'C:\Program Files\wkhtmltopdf\bin\wkhtmltoimage.exe')
+options = {
+
+    'javascript-delay': '400',
+    #'crop-h': '500',
+    #'crop-w': '200',
+    #'crop-x': '50',
+    #'crop-y': '50',
+    #'quality':'100'
+    #'no-stop-slow-scripts':''
+}
 im_g1pre=[]
 while True:
     try:
-        imgkit.from_url('put_url_here', "image.jpg", config=config)
+        imgkit.from_url('put_url_here', "image.jpg", config=config, options=options)
         im_g1=cv2.imread('image.jpg',0)
         im_g1=im_g1.tolist()
 
