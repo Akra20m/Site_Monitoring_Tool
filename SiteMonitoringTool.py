@@ -107,7 +107,7 @@ def function1():
 
 
 
-title=Label(window,text="Site Monitoring Tool",width="30",bg="blue")
+title=Label(window,text="Site Monitoring Tool",width="30",bg="orange")
 title.grid(row=0,column=0)
 
 a1=Button(window,text="Execute",command=lambda: watch(im_g1pre=[]))

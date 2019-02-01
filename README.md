@@ -1,1 +1,7 @@
-This is a project I worked on a while back. It basically monitors a site periodically for any changes. If a change is detected, it sends a message to your phone as well as to your email notifying you about the change. It can be helpful if you are interested in  particular site updates. This is a first version, I will work on improving various aspects of the project.
+Project: Site Monitoring Tool
+
+•	Implemented a tool to periodically monitor an inputted URL for any changes/updates then send text and email notifications to the user upon any recent updates.
+•	Added a Graphical User Interface (GUI) to the tool using Tkinter to make it user-friendly.
+
+
+![](images/Picture1.PNG)
